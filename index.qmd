@@ -46,7 +46,7 @@ x <- denhotspots::knox(x = geocoded_dataset,
                        sp_link = FALSE, # for sf
                        planar_coord = FALSE)
 
-denhotspots::space_time_link_map(x =x,
+denhotspots::space_time_link_map(x = x,
                                  locality =  "Tuxtla Gutierrez",
                                  cve_edo = "07",
                                  maptype = "interactive_map")
